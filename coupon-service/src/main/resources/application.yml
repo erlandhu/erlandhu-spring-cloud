@@ -1,0 +1,22 @@
+server:
+  servlet:
+    context-path: /coupon-server
+
+
+#nacos discovery
+spring:
+  application:
+    name: coupon-server
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+genwoshuo: ""
+
+management:
+  endpoint:
+    serviceregistry:
+      enabled: true
+
