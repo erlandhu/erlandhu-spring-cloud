@@ -17,7 +17,7 @@
 
     <modules>
         <module>coupon-service</module>
-        <module>mail</module>
+        <module>emall</module>
     </modules>
 
     <properties>

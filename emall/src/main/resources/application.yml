@@ -1,19 +1,18 @@
 server:
   servlet:
-    context-path: /coupon-server
-  port: 8081
+    context-path: /emall
 
 
 #nacos discovery
 spring:
   application:
-    name: coupon-server
+    name: emall
 
   cloud:
     nacos:
       discovery:
         server-addr: localhost:8848
-        service: coupon-service
+        service: emall
         heart-beat-timeout: 20000
         # nacos客户端向服务端发送心跳的时间间隔，时间单位其实是ms
         heart-beat-interval: 5000
