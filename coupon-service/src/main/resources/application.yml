@@ -18,6 +18,12 @@ spring:
         # nacos客户端向服务端发送心跳的时间间隔，时间单位其实是ms
         heart-beat-interval: 5000
 
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8858
+
+
 genwoshuo: ""
 
 management:
